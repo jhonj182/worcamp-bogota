@@ -167,7 +167,9 @@ label {
   font-weight: normal !important;
 }
 .tix_atendee_form td, .tix_atendee_form th{
-
+  border: none!important;
+  padding: 0!important;
+  margin: 0 !important;
 }
 /* Estilos específicos para dispositivos de escritorio */
 @media (min-width: 769px) {
