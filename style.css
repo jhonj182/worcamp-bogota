@@ -65,7 +65,7 @@ select {
     margin: 8px 0 !important;
     display: block !important;
     width: 100% !important;
-    border: 1px solid var(--mdc-theme-primary) !important;
+    border: 1px solid #000 !important;
     border-radius: 4px !important;
     box-sizing: border-box !important;
     transition: border-color 0.3s, box-shadow 0.3s !important;
@@ -79,8 +79,8 @@ input[type="date"]:focus,
 input[type="url"]:focus,
 textarea:focus,
 select:focus {
-    border-color: var(--mdc-theme-primary) !important;
-    box-shadow: 0 1px 0 0 var(--mdc-theme-primary) !important;
+    border-color: #000 !important;
+    box-shadow: 0 1px 0 0 #000 !important;
     outline: none !important;
 }
 
@@ -100,7 +100,7 @@ select:disabled {
 label {
     font-family: 'Roboto', sans-serif !important;
     font-size: 16px !important;
-    color: var(--mdc-theme-primary) !important;
+    color: #000 !important;
     display: block !important;
     margin-bottom: 5px !important;
 }
