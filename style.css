@@ -1,10 +1,13 @@
 .btn-buy-ticket a{
   background-color: #fdea58!important;
   color: #000!important;
+  transition: all 0.5 ease;
 }
 .btn-buy-ticket a:hover {
     background-color: #d30521!important;
     color: #fff!important;
     text-decoration: underline;
     font-weight: bold!important;
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
