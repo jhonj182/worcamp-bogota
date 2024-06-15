@@ -159,6 +159,11 @@ body{
   overflow-x: scroll;
 }
 }
+.tix_tickets_table.tix-tickets-list th{
+  font-family: "Lilita One", system-ui!important;
+  font-size: 30px!important;
+  line-height: 1.15;
+}
 /* Estilos específicos para dispositivos de escritorio */
 @media (min-width: 769px) {
   .wp-block-navigation__submenu-container {
