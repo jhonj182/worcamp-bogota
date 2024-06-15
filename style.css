@@ -46,7 +46,11 @@ ul.wp-block-navigation__container.is-responsive.items-justified-right.wp-block-n
   max-width: 80%!important;
 }
 /*forms*/
-
+:root {
+  --mdc-theme-primary: #000000;
+  --mdc-theme-on-primary: #ffffff;
+  --mdc-theme-error: #b00020;
+}
 input[type="text"],
 input[type="password"],
 input[type="email"],
