@@ -204,7 +204,9 @@ label {
   border-bottom: 1px solid #ddd; /* Añade un borde inferior para separar las celdas */
   text-align: left; /* Alineación del texto a la izquierda */
   padding: 8px; /* Espaciado interno */
-  min-height: 60px!important;
+  min-height: 40px!important;
+  display: flex; /* Cambia el display a flexbox */
+  align-items: flex-end; /* Alinea el contenido al final de la celda */
 }
 
 /* Ajustes adicionales para las filas */
