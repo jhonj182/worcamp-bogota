@@ -178,7 +178,17 @@ label {
     flex-wrap: wrap;
   }
 }
-
+@media (max-width: 769px) {
+  .tix_tickets_table.tix-tickets-list{
+    width: 100%!important;
+    flex-direction: row!important;
+    flex-wrap: wrap;
+  }
+  .tix_tickets_table thead,
+  .tix_tickets_table tbody{
+    max-width: 489%;
+  }
+}
 /* Estilos para tabla vertical */
 .tix_tickets_table {
   display: flex; /* Cambia el display de la tabla a flexbox */
