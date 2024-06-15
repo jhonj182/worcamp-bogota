@@ -62,8 +62,7 @@ input[type="email"],
 input[type="number"],
 input[type="date"],
 input[type="url"],
-textarea,
-select {
+textarea {
     font-size: 16px !important;
     padding: 10px 12px !important;
     margin: 8px 0 !important;
@@ -75,15 +74,14 @@ select {
     box-sizing: border-box !important;
     transition: border-color 0.3s, box-shadow 0.3s !important;
 }
-input[type="tel"],
+input[type="tel"]:focus,
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
 input[type="number"]:focus,
 input[type="date"]:focus,
 input[type="url"]:focus,
-textarea:focus,
-select:focus {
+textarea:focus {
     border-color: #000 !important;
     box-shadow: 0 1px 0 0 #000 !important;
     outline: none !important;
