@@ -186,7 +186,7 @@ label {
   }
   .tix_tickets_table thead,
   .tix_tickets_table tbody{
-    max-width: 489%;
+    max-width: 49%;
   }
   .has-global-padding{
     min-width: 100%!important;
