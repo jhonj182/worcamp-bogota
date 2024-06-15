@@ -4,6 +4,6 @@
 }
 .btn-buy-ticket a:hover {
     background-color: #ab9e3c!important;
-    color: #fff;
+    color: #fff!important;
     text-decoration: underline;
 }
