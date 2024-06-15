@@ -1,9 +1,12 @@
 .btn-buy-ticket a{
   background-color: #d30521!important;
+}
+.btn-buy-ticket a{
+  background-color: #d30521!important;
   color: #fff!important;
   transition: all 0.3s ease!important;
 }
-.btn-buy-ticket a:hover {
+.btn-buy-ticket a:hover, .wp-block-button a:hover {
     background-color: #920013!important;
     color: #fff!important;
     text-decoration: underline;
