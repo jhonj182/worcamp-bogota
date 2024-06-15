@@ -205,6 +205,7 @@ label {
   border-bottom: 1px solid #ddd; /* Añade un borde inferior para separar las celdas */
   text-align: left; /* Alineación del texto a la izquierda */
   padding: 8px; /* Espaciado interno */
+  min-height: 60px!important;
 }
 
 /* Ajustes adicionales para las filas */
