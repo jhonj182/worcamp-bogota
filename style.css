@@ -164,7 +164,6 @@ label {
   font-size: 30px!important;
   line-height: 1.15;
   font-weight: normal !important;
-  margin-bottom: 20px!important;
 }
 /* Estilos específicos para dispositivos de escritorio */
 @media (min-width: 769px) {
@@ -211,9 +210,4 @@ label {
 /* Ajustes adicionales para las filas */
 .tix_tickets_table tr {
   margin-bottom: 10px; /* Espacio entre las filas */
-}
-
-/* Ajustes para las cabeceras */
-.tix_tickets_table th {
-  background-color: #f2f2f2; /* Fondo gris claro para las cabeceras */
 }
