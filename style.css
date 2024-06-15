@@ -3,5 +3,5 @@
   color: #000!important;
 }
 .btn-buy-ticket a:hover {
-    filter: brightness(0.7);
+    filter: brightness(0.7)!important;
 }
