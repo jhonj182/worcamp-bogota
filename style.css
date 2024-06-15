@@ -125,7 +125,7 @@ label {
     max-width: 80%!important;
   }
 }
-@media (min-width: 769px) {
+@media (max-width: 769px) {
 .wp-block-buttons.is-layout-flex.wp-block-buttons-is-layout-flex{
   position: fixed;
     bottom: 20px;
