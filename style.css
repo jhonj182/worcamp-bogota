@@ -45,6 +45,10 @@ ul.wp-block-navigation__container.is-responsive.items-justified-right.wp-block-n
 .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){
   max-width: 80%!important;
 }
+.contact-form .contact-form__select-wrapper:after {
+  top: 1px!important;
+  right: 0!important;
+}
 /*forms*/
 :root {
   --mdc-theme-primary: #000000;
