@@ -196,6 +196,12 @@ label {
     font-size: 20px!important;
   }
 }
+#tix-qty-544{
+  width: 100%;
+  font-size: 24px;
+  border: none;
+  padding: 5px;
+}
 /* Estilos para tabla vertical */
 .tix_tickets_table {
   display: flex; /* Cambia el display de la tabla a flexbox */
