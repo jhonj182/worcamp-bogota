@@ -166,6 +166,9 @@ label {
   line-height: 1.15;
   font-weight: normal !important;
 }
+.tix_atendee_form td, .tix_atendee_form th{
+
+}
 /* Estilos específicos para dispositivos de escritorio */
 @media (min-width: 769px) {
   .wp-block-navigation__submenu-container {
