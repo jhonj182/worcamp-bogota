@@ -53,6 +53,9 @@ ul.wp-block-navigation__container.is-responsive.items-justified-right.wp-block-n
   --mdc-theme-on-primary: #ffffff;
   --mdc-theme-error: #b00020;
 }
+.tix-attendee-form p{
+  font-size: 16px!important;
+}
 input[type="text"],
 input[type="tel"],
 input[type="password"],
