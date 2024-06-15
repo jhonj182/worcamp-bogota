@@ -52,6 +52,7 @@ ul.wp-block-navigation__container.is-responsive.items-justified-right.wp-block-n
   --mdc-theme-error: #b00020;
 }
 input[type="text"],
+input[type="tel"],
 input[type="password"],
 input[type="email"],
 input[type="number"],
@@ -70,7 +71,7 @@ select {
     box-sizing: border-box !important;
     transition: border-color 0.3s, box-shadow 0.3s !important;
 }
-
+input[type="tel"],
 input[type="text"]:focus,
 input[type="password"]:focus,
 input[type="email"]:focus,
@@ -83,7 +84,7 @@ select:focus {
     box-shadow: 0 1px 0 0 #000 !important;
     outline: none !important;
 }
-
+input[type="tel"],
 input[type="text"]:disabled,
 input[type="password"]:disabled,
 input[type="email"]:disabled,
