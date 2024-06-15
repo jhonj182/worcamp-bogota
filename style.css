@@ -42,9 +42,7 @@ ul.wp-block-navigation__container.is-responsive.items-justified-right.wp-block-n
   background: linear-gradient(to bottom, white, transparent);
   pointer-events: none; /* Asegura que el pseudo-elemento no interfiera con los eventos del ratón */
 }
-.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){
-  max-width: 80%!important;
-}
+
 .contact-form .contact-form__select-wrapper:after {
   top: 10px!important;
   right: 0!important;
@@ -122,5 +120,8 @@ label {
     width: 50% !important;
     flex: 1;
     min-width: 49%;
+  }
+  .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){
+    max-width: 80%!important;
   }
 }
