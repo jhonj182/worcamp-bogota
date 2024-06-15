@@ -1,17 +1,16 @@
 .wp-block-button a{
   transition: all 0.3s ease!important;
 }
-.btn-buy-ticket a{
+.btn-buy-ticket a, .wp-block-jetpack-button button{
   background-color: #d30521!important;
   color: #fff!important;
   transition: all 0.3s ease!important;
 }
-.btn-buy-ticket a:hover{
+.btn-buy-ticket a:hover, .wp-block-jetpack-button button:hover{
   background-color: #920013!important;
   color: #fff!important;
 }
-.btn-buy-ticket a:hover, .wp-block-button a:hover {
-
+.btn-buy-ticket a:hover, .wp-block-button a:hover, .wp-block-jetpack-button button:hover {
     text-decoration: underline;
     font-weight: bold!important;
     transform: scale(1.05);
