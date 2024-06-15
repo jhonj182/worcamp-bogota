@@ -185,6 +185,10 @@ label {
     flex-wrap: wrap;
   }
 }
+.tix_atendee_form tr{
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
 @media (max-width: 769px) {
   .tix_tickets_table{
     width: 100%!important;
