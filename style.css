@@ -185,7 +185,10 @@ label {
   display: flex; /* Cambia el display de la tabla a flexbox */
   flex-direction: column; /* Organiza las celdas en columnas */
 }
-
+.tix_tickets_table thead,
+.tix_tickets_table tbody{
+  flex: 1;
+}
 /* Ajustes para las celdas y filas */
 .tix_tickets_table thead,
 .tix_tickets_table tbody,
@@ -193,7 +196,6 @@ label {
 .tix_tickets_table th,
 .tix_tickets_table td {
   display: block; /* Cambia todos los elementos de tabla a display block */
-  max-width: 50%
 }
 
 /* Estilos específicos para las celdas */
