@@ -187,7 +187,7 @@ label {
   }
   .tix-attendee-form thead,
   .tix-attendee-form tbody{
-    max-width: 100%;
+    max-width: 100%!important;
   }
   .tix_tickets_table thead,
   .tix_tickets_table tbody{
