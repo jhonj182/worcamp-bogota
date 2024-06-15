@@ -117,3 +117,10 @@ label {
     margin-bottom: 15px !important;
     position: relative !important;
 }
+@media (min-width: 769px) {
+  .grunion-field-wrap:not(.grunion-field-textarea-wrap) {
+    width: 50% !important;
+    flex: 1;
+    min-width: 49%;
+  }
+}
