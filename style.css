@@ -46,7 +46,7 @@ ul.wp-block-navigation__container.is-responsive.items-justified-right.wp-block-n
   max-width: 80%!important;
 }
 .contact-form .contact-form__select-wrapper:after {
-  top: 1px!important;
+  top: 10px!important;
   right: 0!important;
 }
 /*forms*/
