@@ -78,6 +78,8 @@ input[type="submit"], button[type="submit"]{
   color: #fff !important;
   font-size: 16px!important;
   transition: all .3s ease !important;
+  border: none!important;
+  padding: 20px;
 }
 input[type="tel"]:focus,
 input[type="text"]:focus,
