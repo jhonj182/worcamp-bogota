@@ -8,9 +8,10 @@
 }
 .btn-buy-ticket a:hover{
   background-color: #920013!important;
+  color: #fff!important;
 }
 .btn-buy-ticket a:hover, .wp-block-button a:hover {
-    color: #fff!important;
+
     text-decoration: underline;
     font-weight: bold!important;
     transform: scale(1.05);
