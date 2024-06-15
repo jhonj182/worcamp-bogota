@@ -56,6 +56,9 @@ ul.wp-block-navigation__container.is-responsive.items-justified-right.wp-block-n
 .tix-attendee-form p, .tix-attendee-form td{
   font-size: 16px!important;
 }
+.tix-attendee-form br{
+  display: none!important;
+}
 input[type="text"],
 input[type="tel"],
 input[type="password"],
