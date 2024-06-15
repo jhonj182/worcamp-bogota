@@ -28,3 +28,18 @@ ul.wp-block-navigation__container.is-responsive.items-justified-right.wp-block-n
   right: unset!important;
   left: 0 !important;
 }
+.wp-block-group.alignfull.is-layout-flow.wp-block-group-is-layout-flow {
+  position: relative;
+  overflow: hidden; /* Asegura que el contenido no se desborde */
+}
+
+.wp-block-group.alignfull.is-layout-flow.wp-block-group-is-layout-flow::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px; /* Altura máxima del gradiente */
+  background: linear-gradient(to bottom, white, transparent);
+  pointer-events: none; /* Asegura que el pseudo-elemento no interfiera con los eventos del ratón */
+}
