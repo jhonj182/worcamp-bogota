@@ -154,6 +154,10 @@ body{
   max-width: 100vw!important;
   padding: 20px!important
 }
+.tix_tickets_table.tix-tickets-list{
+  width: 100%!important;
+  overflow-x: scroll;
+}
 }
 /* Estilos específicos para dispositivos de escritorio */
 @media (min-width: 769px) {
@@ -161,5 +165,8 @@ body{
       padding-top: 20px !important; /* Espaciado superior de 20px */
       border: 1px solid rgba(0, 0, 0, 0.1) !important; /* Borde sutil */
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important; /* Sombra sutil */
+  }
+  .tix_tickets_table.tix-tickets-list{
+    width: 100%!important;
   }
 }
