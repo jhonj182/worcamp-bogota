@@ -239,9 +239,9 @@ label {
 .tix_tickets_table td {
   display: block; /* Cambia todos los elementos de tabla a display block */
 }
-.tix_tickets_list:not(.tix_attendee_form) td,
-.tix_tickets_list:not(.tix_attendee_form) th {
-border-bottom: 1px solid #ddd; /* Añade un borde inferior para separar las celdas */
+.tix_tickets_list td,
+.tix_tickets_list th {
+border-bottom: 1px solid #ddd!important; /* Añade un borde inferior para separar las celdas */
 }
 /* Estilos específicos para las celdas */
 .tix_tickets_table:not(.tix_attendee_form) td,
