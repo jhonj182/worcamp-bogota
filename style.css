@@ -72,7 +72,7 @@ textarea {
     box-sizing: border-box !important;
     transition: border-color 0.3s, box-shadow 0.3s !important;
 }
-input[type="submit"]{
+input[type="submit"], button[type="submit"]{
   width: 100%!important;
 }
 input[type="tel"]:focus,
