@@ -185,6 +185,10 @@ label {
     flex-direction: row!important;
     flex-wrap: wrap;
   }
+  .tix-attendee-form thead,
+  .tix-attendee-form tbody{
+    max-width: 100%;
+  }
   .tix_tickets_table thead,
   .tix_tickets_table tbody{
     max-width: 49%;
