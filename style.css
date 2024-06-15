@@ -240,7 +240,9 @@ label {
   display: block; /* Cambia todos los elementos de tabla a display block */
 }
 .tix-tickets-list td,
-.tix-tickets-list th {
+.tix-tickets-list th,
+.tix-order-summary td,
+.tix-order-summary th {
 border-bottom: 1px solid #ddd!important; /* Añade un borde inferior para separar las celdas */
 }
 /* Estilos específicos para las celdas */
