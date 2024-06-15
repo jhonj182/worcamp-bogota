@@ -191,24 +191,25 @@ body{
 .tix_tickets_table tr,
 .tix_tickets_table th,
 .tix_tickets_table td {
-  display: block; /* Cambia todos los elementos de tabla a display block */
-}
-
-/* Estilos específicos para las celdas */
-.tix_tickets_table td,
-.tix_tickets_table th {
-  border: none; /* Elimina los bordes de las celdas si no son necesarios */
-  border-bottom: 1px solid #ddd; /* Añade un borde inferior para separar las celdas */
-  text-align: left; /* Alineación del texto a la izquierda */
+  display: flex; /* Cambia todos los elementos de tabla a flexbox */
+  justify-content: space-between; /* Alinea los elementos en cada fila */
   padding: 8px; /* Espaciado interno */
 }
 
-/* Ajustes adicionales para las filas */
-.tix_tickets_table tr {
-  margin-bottom: 10px; /* Espacio entre las filas */
+/* Alinear a la izquierda los encabezados */
+.tix_tickets_table th {
+  justify-content: flex-start; /* Alinea los encabezados a la izquierda */
+  font-weight: bold; /* Fuente en negrita para los encabezados */
+}
+
+/* Estilos específicos para las celdas de contenido */
+.tix_tickets_table td {
+  justify-content: flex-end; /* Alinea el contenido a la derecha */
+  font-style: italic; /* Estilo de fuente cursiva para el contenido */
 }
 
 /* Ajustes para las cabeceras */
 .tix_tickets_table th {
   background-color: #f2f2f2; /* Fondo gris claro para las cabeceras */
+  flex: 1; /* Ocupa todo el espacio disponible */
 }
