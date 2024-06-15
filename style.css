@@ -205,7 +205,6 @@ label {
 /* Estilos para tabla vertical */
 .tix_tickets_table {
   display: flex; /* Cambia el display de la tabla a flexbox */
-  flex-direction: column; /* Organiza las celdas en columnas */
 }
 .tix_tickets_table thead,
 .tix_tickets_table tbody{
