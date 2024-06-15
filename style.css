@@ -166,7 +166,7 @@ label {
   line-height: 1.15;
   font-weight: normal !important;
 }
-.tix_attendee_form td, .tix_attendee_form th{
+.tix-attendee-form td, .tix-attendee-form th{
   border: none!important;
   border-bottom: 0px solid transparent!important;
   padding: 0!important;
@@ -185,7 +185,7 @@ label {
     flex-wrap: wrap;
   }
 }
-.tix_attendee_form tr{
+.tix-attendee-form tr{
   margin-bottom: 0 !important;
   padding-bottom: 0 !important;
 }
@@ -239,13 +239,13 @@ label {
 .tix_tickets_table td {
   display: block; /* Cambia todos los elementos de tabla a display block */
 }
-.tix_tickets_list td,
-.tix_tickets_list th {
+.tix-tickets-list td,
+.tix-tickets-list th {
 border-bottom: 1px solid #ddd!important; /* Añade un borde inferior para separar las celdas */
 }
 /* Estilos específicos para las celdas */
-.tix_tickets_table:not(.tix_attendee_form) td,
-.tix_tickets_table:not(.tix_attendee_form) th {
+.tix_tickets_table:not(.tix-attendee-form) td,
+.tix_tickets_table:not(.tix-attendee-form) th {
   border: none; /* Elimina los bordes de las celdas si no son necesarios */
   text-align: left; /* Alineación del texto a la izquierda */
   padding: 8px; /* Espaciado interno */
