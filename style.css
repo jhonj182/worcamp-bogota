@@ -17,3 +17,7 @@ nav.is-responsive.items-justified-right.wp-block-navigation.is-horizontal.is-con
 ul.wp-block-navigation__container.is-responsive.items-justified-right.wp-block-navigation{
   justify-content: space-around!important;
 }
+.wp-block-navigation__submenu-container{
+  border: none!important;
+  right: unset;
+}
