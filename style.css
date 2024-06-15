@@ -2,3 +2,6 @@
   background-color: #fdea58!important;
   color: #000!important;
 }
+.btn-buy-ticket a:hover {
+    filter: brightness(0.7);
+}
