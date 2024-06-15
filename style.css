@@ -126,7 +126,7 @@ label {
   }
 }
 @media (max-width: 769px) {
-.wp-block-buttons.is-layout-flex.wp-block-buttons-is-layout-flex{
+.btn-buy-ticket {
   position: fixed;
     bottom: 20px;
     left: 0;
