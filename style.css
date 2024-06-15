@@ -125,8 +125,8 @@ label {
     max-width: 80%!important;
   }
 }
-@media (max-width: 992px){
-  .has-global-padding{
+@media (max-width: 1200px){
+  header .has-global-padding{
     padding: 20px!important;
   }
 }
