@@ -64,6 +64,7 @@ select {
     margin: 8px 0 !important;
     display: block !important;
     width: 100% !important;
+    border: none!important;
     border-bottom: 1px solid #000 !important;
     border-radius: 4px !important;
     box-sizing: border-box !important;
