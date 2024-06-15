@@ -39,7 +39,7 @@ ul.wp-block-navigation__container.is-responsive.items-justified-right.wp-block-n
   top: 0;
   left: 0;
   right: 0;
-  height: 100px; /* Altura máxima del gradiente */
+  height: 300px; /* Altura máxima del gradiente */
   background: linear-gradient(to bottom, white, transparent);
   pointer-events: none; /* Asegura que el pseudo-elemento no interfiera con los eventos del ratón */
 }
