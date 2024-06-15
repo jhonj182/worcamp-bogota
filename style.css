@@ -43,3 +43,6 @@ ul.wp-block-navigation__container.is-responsive.items-justified-right.wp-block-n
   background: linear-gradient(to bottom, white, transparent);
   pointer-events: none; /* Asegura que el pseudo-elemento no interfiera con los eventos del ratón */
 }
+.wp-site-blocks{
+  --wp--style--global--content-size: 80%;
+}
