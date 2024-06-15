@@ -53,7 +53,7 @@ ul.wp-block-navigation__container.is-responsive.items-justified-right.wp-block-n
   --mdc-theme-on-primary: #ffffff;
   --mdc-theme-error: #b00020;
 }
-.tix-attendee-form p{
+.tix-attendee-form p, .tix-attendee-form td{
   font-size: 16px!important;
 }
 input[type="text"],
