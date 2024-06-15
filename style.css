@@ -163,6 +163,7 @@ body{
   font-family: "Lilita One", system-ui!important;
   font-size: 30px!important;
   line-height: 1.15;
+  font-weight: normal !important;
 }
 /* Estilos específicos para dispositivos de escritorio */
 @media (min-width: 769px) {
