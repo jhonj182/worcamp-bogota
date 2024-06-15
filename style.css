@@ -188,6 +188,10 @@ label {
   .tix_tickets_table tbody{
     max-width: 489%;
   }
+  .has-global-padding{
+    min-width: 100%!important;
+    padding: 0!important;
+  }
 }
 /* Estilos para tabla vertical */
 .tix_tickets_table {
