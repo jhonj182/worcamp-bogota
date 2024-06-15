@@ -142,22 +142,22 @@ label {
   }
 }
 @media (max-width: 769px) {
-.btn-buy-ticket {
-  position: fixed;
-    bottom: 20px;
-    left: 0;
-    right: 0;
-    width: calc(100% - 40px);
-    margin: 0 20px;
-}
-body{
-  max-width: 100vw!important;
-  padding: 20px!important
-}
-.tix_tickets_table.tix-tickets-list{
-  width: 100%!important;
-  overflow-x: scroll;
-}
+    .btn-buy-ticket {
+      position: fixed;
+        bottom: 20px;
+        left: 0;
+        right: 0;
+        width: calc(100% - 40px);
+        margin: 0 20px;
+    }
+    body{
+      max-width: 100vw!important;
+      padding: 20px!important
+    }
+    .tix_tickets_table.tix-tickets-list{
+      width: 100%!important;
+      overflow-x: scroll;
+    }
 }
 .tix_tickets_table.tix-tickets-list th{
   font-family: "Lilita One", system-ui!important;
@@ -175,6 +175,8 @@ body{
   }
   .tix_tickets_table.tix-tickets-list{
     width: 100%!important;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 }
 
@@ -191,6 +193,7 @@ body{
 .tix_tickets_table th,
 .tix_tickets_table td {
   display: block; /* Cambia todos los elementos de tabla a display block */
+  max-width: 50%
 }
 
 /* Estilos específicos para las celdas */
