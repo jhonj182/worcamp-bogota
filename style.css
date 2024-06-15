@@ -60,6 +60,7 @@ input[type="email"],
 input[type="number"],
 input[type="date"],
 input[type="url"],
+.tix-attendee-form select,
 textarea {
     font-size: 16px !important;
     padding: 10px 12px !important;
