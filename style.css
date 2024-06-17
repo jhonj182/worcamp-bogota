@@ -156,9 +156,8 @@ label {
         width: calc(100% - 40px);
         margin: 0 20px;
     }
-    body{
+    body, div, section{
       max-width: 100vw!important;
-      padding: 20px!important;
       overflow-x: hidden;
     }
     .tix_tickets_table{
