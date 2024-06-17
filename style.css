@@ -163,6 +163,7 @@ label {
     .wp-site-blocks{
       max-width: 100vw;
       padding: 10px;
+      overflow: hidden;
     }
     .wp-block-group{
       padding: 10px!important;
