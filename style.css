@@ -29,7 +29,6 @@ ul.wp-block-navigation__container.is-responsive.items-justified-right.wp-block-n
 }
 .wp-block-group.alignfull.is-layout-flow.wp-block-group-is-layout-flow {
   position: relative;
-  overflow: hidden; /* Asegura que el contenido no se desborde */
 }
 
 .wp-block-group.alignfull.is-layout-flow.wp-block-group-is-layout-flow::before {
