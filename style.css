@@ -210,7 +210,6 @@ label {
     max-width: 49%;
   }
   .has-global-padding{
-    min-width: 100%!important;
   }
   .tix_tickets_table th{
     font-size: 20px!important;
