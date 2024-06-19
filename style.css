@@ -2,12 +2,12 @@
   transition: all 0.3s ease;
 }
 .btn-buy-ticket a, .wp-block-jetpack-button button{
-  background-color: #d30521;
+  background-color: #d30521!important;
   color: #fff;
   transition: all 0.3s ease;
 }
 .btn-buy-ticket a:hover, .wp-block-jetpack-button button:hover{
-  background-color: #920013;
+  background-color: #920013!important;
   color: #fff;
 }
 .btn-buy-ticket a:hover, .wp-block-button a:hover, .wp-block-jetpack-button button:hover {
