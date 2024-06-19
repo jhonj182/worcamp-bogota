@@ -1,31 +1,31 @@
 .wp-block-button a{
-  transition: all 0.3s ease!important;
+  transition: all 0.3s ease;
 }
 .btn-buy-ticket a, .wp-block-jetpack-button button{
-  background-color: #d30521!important;
-  color: #fff!important;
-  transition: all 0.3s ease!important;
+  background-color: #d30521;
+  color: #fff;
+  transition: all 0.3s ease;
 }
 .btn-buy-ticket a:hover, .wp-block-jetpack-button button:hover{
-  background-color: #920013!important;
-  color: #fff!important;
+  background-color: #920013;
+  color: #fff;
 }
 .btn-buy-ticket a:hover, .wp-block-button a:hover, .wp-block-jetpack-button button:hover {
     text-decoration: underline;
-    font-weight: bold!important;
+    font-weight: bold;
     transform: scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 nav.is-responsive.items-justified-right.wp-block-navigation.is-horizontal.is-content-justification-right.is-layout-flex.wp-container-core-navigation-is-layout-1.wp-block-navigation-is-layout-flex{
-  min-width: 50%!important;
+  min-width: 50%;
 }
 ul.wp-block-navigation__container.is-responsive.items-justified-right.wp-block-navigation{
-  justify-content: space-around!important;
+  justify-content: space-around;
 }
 .wp-block-navigation__submenu-container{
-  border: none!important;
-  right: unset!important;
-  left: 0 !important;
+  border: none;
+  right: unset;
+  left: 0 ;
 }
 .wp-block-group.alignfull.is-layout-flow.wp-block-group-is-layout-flow {
   position: relative;
@@ -43,8 +43,8 @@ ul.wp-block-navigation__container.is-responsive.items-justified-right.wp-block-n
 }
 
 .contact-form .contact-form__select-wrapper:after {
-  top: 10px!important;
-  right: 0!important;
+  top: 10px;
+  right: 0;
 }
 /*forms*/
 :root {
@@ -53,10 +53,10 @@ ul.wp-block-navigation__container.is-responsive.items-justified-right.wp-block-n
   --mdc-theme-error: #b00020;
 }
 .tix-attendee-form p, .tix-attendee-form td{
-  font-size: 16px!important;
+  font-size: 16px;
 }
 .tix-attendee-form br{
-  display: none!important;
+  display: none;
 }
 input[type="text"],
 input[type="tel"],
@@ -67,25 +67,25 @@ input[type="date"],
 input[type="url"],
 .tix-attendee-form select,
 textarea {
-    font-size: 16px !important;
-    padding: 10px 12px !important;
-    margin: 8px 0 !important;
+    font-size: 16px ;
+    padding: 10px 12px ;
+    margin: 8px 0 ;
     display: block;
-    width: 100% !important;
-    border: none!important;
-    border-bottom: 1px solid #000 !important;
-    border-radius: 0px !important;
-    box-sizing: border-box !important;
-    transition: border-color 0.3s, box-shadow 0.3s !important;
+    width: 100% ;
+    border: none;
+    border-bottom: 1px solid #000 ;
+    border-radius: 0px ;
+    box-sizing: border-box ;
+    transition: border-color 0.3s, box-shadow 0.3s ;
 }
 
 input[type="submit"], button[type="submit"]{
-  width: 100%!important;
-  background-color: #d30521 !important;
-  color: #fff !important;
-  font-size: 16px!important;
-  transition: all .3s ease !important;
-  border: none!important;
+  width: 100%;
+  background-color: #d30521 ;
+  color: #fff ;
+  font-size: 16px;
+  transition: all .3s ease ;
+  border: none;
   padding: 20px;
 }
 input[type="tel"]:focus,
@@ -96,9 +96,9 @@ input[type="number"]:focus,
 input[type="date"]:focus,
 input[type="url"]:focus,
 textarea:focus {
-    border-color: #000 !important;
-    box-shadow: 0 1px 0 0 #000 !important;
-    outline: none !important;
+    border-color: #000 ;
+    box-shadow: 0 1px 0 0 #000 ;
+    outline: none ;
 }
 input[type="tel"]:disabled,
 input[type="text"]:disabled,
@@ -109,42 +109,42 @@ input[type="date"]:disabled,
 input[type="url"]:disabled,
 textarea:disabled,
 select:disabled {
-    background-color: #e0e0e0 !important;
-    color: #9e9e9e !important;
-    cursor: not-allowed !important;
+    background-color: #e0e0e0 ;
+    color: #9e9e9e ;
+    cursor: not-allowed ;
 }
 
 label {
-    font-size: 16px !important;
-    color: #000 !important;
+    font-size: 16px ;
+    color: #000 ;
     display: block;
-    margin-bottom: 5px !important;
+    margin-bottom: 5px ;
 }
 
 .error-message {
-    font-size: 12px !important;
-    color: var(--mdc-theme-error) !important;
-    margin-top: 4px !important;
+    font-size: 12px ;
+    color: var(--mdc-theme-error) ;
+    margin-top: 4px ;
 }
 
 .form-group {
-    margin-bottom: 15px !important;
-    position: relative !important;
+    margin-bottom: 15px ;
+    position: relative ;
 }
 @media (min-width: 769px) {
   .grunion-field-wrap:not(.grunion-field-textarea-wrap) {
-    width: 50% !important;
+    width: 50% ;
     flex: 1;
     min-width: 49%;
   }
   .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){
-    max-width: 100%!important;
+    max-width: 100%;
   }
 
 }
 @media (max-width: 1200px){
   header .has-global-padding{
-    padding: 20px!important;
+    padding: 20px;
   }
 }
 @media (max-width: 769px) {
@@ -157,7 +157,7 @@ label {
         margin: 0 20px;
     }
     .tix_tickets_table{
-      width: 100%!important;
+      width: 100%;
       overflow-x: scroll;
     }
     .wp-site-blocks{
@@ -166,65 +166,65 @@ label {
       overflow: hidden;
     }
     .wp-block-group{
-      padding: 10px!important;
+      padding: 10px;
     }
 }
 .tix_tickets_table th{
-  font-family: "Lilita One", system-ui!important;
-  font-size: 30px!important;
+  font-family: "Lilita One", system-ui;
+  font-size: 30px;
   line-height: 1.15;
-  font-weight: normal !important;
+  font-weight: normal ;
 }
 .tix-attendee-form td, .tix-attendee-form th{
-  border: none!important;
-  border-bottom: 0px solid transparent!important;
-  padding: 0!important;
-  margin: 0 !important;
+  border: none;
+  border-bottom: 0px solid transparent;
+  padding: 0;
+  margin: 0 ;
 }
 /* Estilos específicos para dispositivos de escritorio */
 @media (min-width: 769px) {
   .wp-block-navigation__submenu-container {
-      padding-top: 20px !important; /* Espaciado superior de 20px */
-      border: 1px solid rgba(0, 0, 0, 0.1) !important; /* Borde sutil */
-      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important; /* Sombra sutil */
+      padding-top: 20px ; /* Espaciado superior de 20px */
+      border: 1px solid rgba(0, 0, 0, 0.1) ; /* Borde sutil */
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) ; /* Sombra sutil */
   }
   .tix_tickets_table{
-    width: 100%!important;
+    width: 100%;
     flex-direction: row;
     flex-wrap: wrap;
   }
 }
 .tix-attendee-form tr{
-  margin-bottom: 0 !important;
-  padding-bottom: 0 !important;
+  margin-bottom: 0 ;
+  padding-bottom: 0 ;
 }
 @media (max-width: 769px) {
   .tix_tickets_table{
-    width: 100%!important;
-    flex-direction: row!important;
+    width: 100%;
+    flex-direction: row;
     flex-wrap: wrap;
   }
   .tix-attendee-form thead,
   .tix-attendee-form tbody{
-    max-width: 100%!important;
+    max-width: 100%;
   }
   .tix_tickets_table thead,
   .tix_tickets_table tbody{
     max-width: 49%;
   }
   .has-global-padding{
-    min-width: 100%!important;
-    padding: 0!important;
+    min-width: 100%;
+    padding: 0;
   }
   .tix_tickets_table th{
-    font-size: 20px!important;
+    font-size: 20px;
   }
 }
 .tix_tickets_table.tix-attendee-form tbody, .tix_tickets_table.tix-attendee-form tbody tr, .tix_tickets_table.tix-attendee-form tbody td{
-  width: 100%!important;
+  width: 100%;
 }
 .tix-order-summary .tix-column-description{
-  width: 100%!important;
+  width: 100%;
 }
 #tix-qty-544{
   width: 100%;
@@ -252,7 +252,7 @@ label {
 .tix-tickets-list th,
 .tix-order-summary td,
 .tix-order-summary th {
-border-bottom: 1px solid #ddd!important; /* Añade un borde inferior para separar las celdas */
+border-bottom: 1px solid #ddd; /* Añade un borde inferior para separar las celdas */
 }
 /* Estilos específicos para las celdas */
 .tix_tickets_table:not(.tix-attendee-form) td,
@@ -260,7 +260,7 @@ border-bottom: 1px solid #ddd!important; /* Añade un borde inferior para separa
   border: none; /* Elimina los bordes de las celdas si no son necesarios */
   text-align: left; /* Alineación del texto a la izquierda */
   padding: 8px; /* Espaciado interno */
-  min-height: 40px!important;
+  min-height: 40px;
   display: flex; /* Cambia el display a flexbox */
   align-items: flex-end; /* Alinea el contenido al final de la celda */
 }
