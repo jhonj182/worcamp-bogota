@@ -165,9 +165,6 @@ label {
       padding: 10px;
       overflow: hidden;
     }
-    .wp-block-group{
-      padding: 10px!important;
-    }
 }
 .tix_tickets_table th{
   font-family: "Lilita One", system-ui!important;
