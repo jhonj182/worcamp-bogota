@@ -2,3 +2,16 @@
   text-align: center!important;
 
 }
+@supports (display:grid) {
+  @media screen and (min-width: 550px) {
+      body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__column-header {
+          background-color: #fbfbfceb;
+          display: block;
+          grid-row: tracks;
+          margin: 0 -1px;
+          padding: 10px 5px 5px;
+          position: sticky;
+          top: 0;
+          z-index: 10;}
+  }
+}
