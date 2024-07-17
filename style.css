@@ -15,3 +15,11 @@
           z-index: 10;}
   }
 }
+@supports ( display: grid ) {
+  @media screen and (min-width: 550px) {
+      #wordcamp-schedule__day-2020-09-10-tracks-all {
+          grid-template-columns: [times] auto [wordcamp-schedule-track-42-start] 1fr [wordcamp-schedule-track-42-end wordcamp-schedule-track-43-start] 1fr [wordcamp-schedule-track-43-end];
+          grid-template-rows: [tracks] auto [time-101600] auto [time-101610] auto [time-101610] auto [time-101610] auto [time-101640] auto [time-101640] auto [time-101640] auto [time-101640] auto [time-101710] auto [time-101710] auto [time-101710] auto [time-101710] auto [time-101740] auto [time-101740] auto [time-101750] auto [time-101750] auto [time-101800] auto [time-101800] auto [time-101810] auto [time-101810] auto [time-101810] auto [time-101820] auto [time-101820] auto [time-101820] auto [time-101850] auto [time-101850] auto [time-101850] auto [time-101850] auto [time-101920] auto [time-101920] auto [time-101920] auto [time-101920] auto [time-101950] auto [time-101950] auto;
+      }
+  }
+}
