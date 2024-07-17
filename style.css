@@ -3,15 +3,23 @@
 
 }
 
-  @media screen and (min-width: 550px) {
-      body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__column-header {
-          background-color: #fbfbfceb!important;
-          display: block!important;
-          grid-row: tracks!important;
-          margin: 0 -1px!important;
-          padding: 10px 5px 5px!important;
-          position: sticky!important;
-          top: 0!important;
-          z-index: 10!important;
-        }
-  }
+.wordcamp-schedule__column-header {
+  position: sticky;
+  top: 0;
+  background-color: white; /* Asegura que el fondo sea visible sobre otros elementos */
+  z-index: 10; /* Asegura que esté por encima de otros elementos */
+  padding: 10px; /* Opcional: añade relleno para mayor legibilidad */
+  border-bottom: 1px solid #ddd; /* Opcional: añade una línea de separación */
+}
+
+.is-column-time {
+  grid-column: times;
+}
+
+.is-column-track-track-1 {
+  grid-column: wordcamp-schedule-track-27;
+}
+
+.is-column-track-track-2 {
+  grid-column: wordcamp-schedule-track-28;
+}
