@@ -38,7 +38,7 @@
   color: #fff;
   background-color: #920013!important;
 }
-.wordcamp-schedule.time-slot-header.has-sessions h3{
+h3.wordcamp-schedule{
   font-size: clamp(1.648rem, 1.648rem + ((1vw - 0.2rem) * 1.92), 1rem)!important;
 }
 .wcpt-schedule td, .wordcamp-schedule__session{
