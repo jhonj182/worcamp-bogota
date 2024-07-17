@@ -16,7 +16,7 @@
   grid-column: times;
   padding: 20px 0;
   font-size: 24px;
-  margin: 3px;
+  margin: 5px!important;
   border: 2px solid red;
 }
 
@@ -24,7 +24,7 @@
   grid-column: wordcamp-schedule-track-27;
   padding: 20px 0;
   font-size: 24px;
-  margin: 3px;
+  margin: 5px!important;
   border: 2px solid red;
 }
 
@@ -32,6 +32,6 @@
   grid-column: wordcamp-schedule-track-28;
   padding: 20px 0;
   font-size: 24px;
-  margin: 3px;
+  margin: 5px!important;
   border: 2px solid red;
 }
