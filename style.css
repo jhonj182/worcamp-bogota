@@ -6,7 +6,7 @@
 .wordcamp-schedule__column-header {
   position: sticky;
   top: 0;
-  background-color: white; /* Asegura que el fondo sea visible sobre otros elementos */
+  background-color: red; /* Asegura que el fondo sea visible sobre otros elementos */
   z-index: 10; /* Asegura que esté por encima de otros elementos */
   padding: 10px; /* Opcional: añade relleno para mayor legibilidad */
   border-bottom: 1px solid #ddd; /* Opcional: añade una línea de separación */
