@@ -5,21 +5,14 @@
 @supports (display:grid) {
   @media screen and (min-width: 550px) {
       body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__column-header {
-          background-color: #fbfbfceb;
-          display: block;
-          grid-row: tracks;
-          margin: 0 -1px;
-          padding: 10px 5px 5px;
-          position: sticky;
-          top: 0;
-          z-index: 10;}
-  }
-}
-@supports ( display: grid ) {
-  @media screen and (min-width: 550px) {
-      #wordcamp-schedule__day-2020-09-10-tracks-all {
-          grid-template-columns: [times] auto [wordcamp-schedule-track-42-start] 1fr [wordcamp-schedule-track-42-end wordcamp-schedule-track-43-start] 1fr [wordcamp-schedule-track-43-end];
-          grid-template-rows: [tracks] auto [time-101600] auto [time-101610] auto [time-101610] auto [time-101610] auto [time-101640] auto [time-101640] auto [time-101640] auto [time-101640] auto [time-101710] auto [time-101710] auto [time-101710] auto [time-101710] auto [time-101740] auto [time-101740] auto [time-101750] auto [time-101750] auto [time-101800] auto [time-101800] auto [time-101810] auto [time-101810] auto [time-101810] auto [time-101820] auto [time-101820] auto [time-101820] auto [time-301200] auto [time-301200] auto [time-301200] auto [time-301200] auto [time-301200] auto [time-301200] auto [time-301200] auto [time-301200] auto [time-301200] auto [time-301200] auto;
-      }
+          background-color: #fbfbfceb!important;
+          display: block!important;
+          grid-row: tracks!important;
+          margin: 0 -1px!important;
+          padding: 10px 5px 5px!important;
+          position: sticky!important;
+          top: 0!important;
+          z-index: 10!important;
+        }
   }
 }
