@@ -14,12 +14,18 @@
 
 .is-column-time {
   grid-column: times;
+  padding: 20px 0;
+  font-size: 24px
 }
 
 .is-column-track-track-1 {
   grid-column: wordcamp-schedule-track-27;
+  padding: 20px 0;
+  font-size: 24px
 }
 
 .is-column-track-track-2 {
   grid-column: wordcamp-schedule-track-28;
+  padding: 20px 0;
+  font-size: 24px
 }
