@@ -17,7 +17,8 @@
   padding: 20px 0;
   font-size: 24px;
   margin: 5px!important;
-  border: 2px solid red;
+  color: #fff;
+  background-color: #920013!important;
 }
 
 .is-column-track-track-1 {
@@ -25,7 +26,8 @@
   padding: 20px 0;
   font-size: 24px;
   margin: 5px!important;
-  border: 2px solid red;
+  color: #fff;
+  background-color: #920013!important;
 }
 
 .is-column-track-track-2 {
@@ -33,5 +35,6 @@
   padding: 20px 0;
   font-size: 24px;
   margin: 5px!important;
-  border: 2px solid red;
+  color: #fff;
+  background-color: #920013!important;
 }
