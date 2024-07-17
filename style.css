@@ -2,7 +2,7 @@
   text-align: center!important;
 
 }
-@supports (display:grid) {
+
   @media screen and (min-width: 550px) {
       body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layout) .wordcamp-schedule__column-header {
           background-color: #fbfbfceb!important;
@@ -15,4 +15,3 @@
           z-index: 10!important;
         }
   }
-}
