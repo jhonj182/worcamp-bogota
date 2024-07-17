@@ -47,3 +47,6 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   border: 2px solid #920013!important;
   margin: 5px!important;
 }
+.wordcamp-schedule__session-speakers a{
+  font-size: 24px;
+}
