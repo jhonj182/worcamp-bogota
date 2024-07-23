@@ -431,4 +431,5 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   }
   .tix-ticket-excerpt{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
   }
