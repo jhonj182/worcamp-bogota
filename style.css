@@ -324,7 +324,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   .tix-order-summary .tix-column-description{
     width: 100%;
   }
-  #tix-qty-544{
+  .tix-tickets-quantity select{
     width: 100%;
     font-size: 24px;
     border: none;
