@@ -443,3 +443,6 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   .page-id-13 #tix{
     max-width: 100%!important;
   }
+  .tix-column-price{
+    font-weight: bold;
+  }
