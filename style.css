@@ -451,9 +451,9 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   }
   @media (width < 992px){
     .page-id-13 .tix-tickets-list tbody tr{
-      display: flex;
-      flex-direction: column;
-      
+      display: flex!important;
+      flex-direction: column!important;
+
     }
 
   }
