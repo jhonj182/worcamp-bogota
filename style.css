@@ -449,7 +449,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   .page-id-13 .tix-column-description{
     min-width: 300px;
   }
-  @media and (width < 992px){
+  @media (width < 992px){
     .page-id-13 .tix-tickets-list tbody tr{
       display: flex!important;
       flex-direction: column!important;
