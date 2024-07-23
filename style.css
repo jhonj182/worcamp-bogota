@@ -231,6 +231,9 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     .page-id-13 .wp-block-group  {
       padding: 0;
     }
+    .page-id-13 form {
+      overflow-x: scroll;
+    }
   .title-sponsors h2{
   font-size: 24px
   }
