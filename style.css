@@ -437,3 +437,6 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   .tix-column-description br{
     display: none;
   }
+  .page-id-13 .has-global-padding{
+    padding: 0!important;
+  }
