@@ -21,7 +21,7 @@
   background-color: #920013!important;
 }
 
-.is-column-track-track-1, .tix-tickets-list th, .tix-tickets-list td {
+.is-column-track-track-1{
   grid-column: wordcamp-schedule-track-27;
   padding: 20px 0;
   font-size: 24px;
@@ -43,7 +43,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   font-size: clamp(1.648rem, 1.648rem + ((1vw - 0.2rem) * 1.92), 1rem)!important;
   background-color: #fdea58!important;
 }
-.wcpt-schedule td, .wordcamp-schedule__session, .wordcamp-schedule__time-slot-header {
+.wcpt-schedule td, .wordcamp-schedule__session, .wordcamp-schedule__time-slot-header , .tix-tickets-list th, .tix-tickets-list td {
   border: 2px solid #920013!important;
   margin: 5px!important;
 }
