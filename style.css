@@ -21,7 +21,7 @@
   background-color: #920013!important;
 }
 
-.is-column-track-track-1 {
+.is-column-track-track-1, .tix-tickets-list th, .tix-tickets-list td {
   grid-column: wordcamp-schedule-track-27;
   padding: 20px 0;
   font-size: 24px;
