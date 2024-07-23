@@ -471,7 +471,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
       box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
   } 
       
-  .page-id-13 .tix-tickets-list tbody .tix-column-description {
+  .page-id-13 .tix-tickets-list tbody .tix-column-description::before {
     content: "Descripción";
     display: block;
     text-align: center;
@@ -482,7 +482,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
 } 
     
-.page-id-13 .tix-tickets-list tbody .tix-column-price {
+.page-id-13 .tix-tickets-list tbody .tix-column-price::before {
   content: "Precio";
   display: block;
   text-align: center;
@@ -493,7 +493,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
 } 
     
-.page-id-13 .tix-tickets-list tbody .tix-column-remaining {
+.page-id-13 .tix-tickets-list tbody .tix-column-remaining::before {
   content: "Entradas Disponibles";
   display: block;
   text-align: center;
