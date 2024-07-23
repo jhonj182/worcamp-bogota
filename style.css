@@ -337,7 +337,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   .tix_tickets_table tr,
   .tix_tickets_table th,
   .tix_tickets_table td {
-    /* display: block; Cambia todos los elementos de tabla a display block */
+    display: block; 
   }
   .tix-tickets-list td,
   .tix-tickets-list th,
