@@ -227,6 +227,9 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     }
   }
   @media (max-width: 769px) {
+    .page-id-13 .entry-content {
+      padding: 0;
+    }
   .title-sponsors h2{
   font-size: 24px
   }
