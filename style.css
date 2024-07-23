@@ -459,7 +459,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
       display: none;
 
     }
-    .page-id-13 .tix_tickets_table tbody tr::after {
+    .page-id-13 .tix_tickets_list tbody tr::before {
       content: "Descripción";
       display: block;
       text-align: center;
