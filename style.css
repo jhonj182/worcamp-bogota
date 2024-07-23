@@ -352,7 +352,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     text-align: left; /* Alineación del texto a la izquierda */
     padding: 8px; /* Espaciado interno */
     min-height: 40px;
-    display: flex; /* Cambia el display a flexbox */
+    /* display: flex; Cambia el display a flexbox */
     align-items: flex-end; /* Alinea el contenido al final de la celda */
   }
   .tix-order-summary .tix-column-description{
