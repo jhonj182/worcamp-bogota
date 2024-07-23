@@ -12,7 +12,7 @@
   border-bottom: 1px solid #ddd; /* Opcional: añade una línea de separación */
 }
 
-.is-column-time, .tix_tickets_table tbody tr:first-child{
+.is-column-time, .tix_tickets_table thead tr:first-child{
   grid-column: times;
   padding: 20px 0;
   font-size: 24px;
