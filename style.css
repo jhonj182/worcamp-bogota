@@ -332,11 +332,11 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     flex: 1;
   }
   /* Ajustes para las celdas y filas */
-  .tix_checkout_form .tix_tickets_table thead,
-  .tix_checkout_form .tix_tickets_table tbody,
-  .tix_checkout_form .tix_tickets_table tr,
-  .tix_checkout_form .tix_tickets_table th,
-  .tix_checkout_form .tix_tickets_table td {
+  #tix_checkout_form .tix_tickets_table thead,
+  #tix_checkout_form .tix_tickets_table tbody,
+  #tix_checkout_form .tix_tickets_table tr,
+  #tix_checkout_form .tix_tickets_table th,
+  #tix_checkout_form .tix_tickets_table td {
     display: block; 
   }
   .tix-tickets-list td,
