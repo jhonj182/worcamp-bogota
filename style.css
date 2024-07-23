@@ -434,3 +434,6 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     font-size: 14px;
     line-height: 1;
   }
+  .tix-column-description br{
+    display: none;
+  }
