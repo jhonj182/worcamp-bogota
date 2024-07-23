@@ -325,7 +325,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   }
   /* Estilos para tabla vertical */
   .tix_tickets_table {
-    display: flex; /* Cambia el display de la tabla a flexbox */
+    /* display: flex; Cambia el display de la tabla a flexbox */
   }
   .tix_tickets_table thead,
   .tix_tickets_table tbody{
