@@ -441,7 +441,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     padding: 0!important;
   }
   .page-id-13 #tix{
-    max-width: 100%!important;
+    max-width: 90%!important;
   }
   .tix-column-price{
     font-weight: bold;
@@ -459,5 +459,16 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
       display: none;
 
     }
+    .page-id-13 .tix_tickets_table tbody tr::after {
+      content: "Descripción";
+      display: block;
+      text-align: center;
+      background-color: #800020; /* Color vinotinto */
+      color: white; /* Color del texto */
+      padding: 10px; /* Espaciado opcional */
+      width: 100%;
+      box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+  }
+  
 
   }
