@@ -460,8 +460,8 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
 
     }
     
-    .page-id-13 .tix-tickets-list tbody .tix-column-description {
-      content: "Descripción";
+    .page-id-13 .tix-tickets-list tbody .tix-column-quantity::before {
+      content: "Seleccione Cantidad";
       display: block;
       text-align: center;
       background-color: #800020; /* Color vinotinto */
