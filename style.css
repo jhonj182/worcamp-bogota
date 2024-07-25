@@ -381,6 +381,9 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   .sponsors-image-wrapper{
   padding: 80px 20px;
   border: 8px solid red;}
+  .sponsors-image-wrapper.usaquen{
+    padding: 80px 20px;
+    border: 8px solid #fdea58;}
   .sponsors-image-wrapper .wp-block-columns .wp-block-column{
   display: flex;
       align-items: center;
