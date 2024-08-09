@@ -514,3 +514,8 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   text-align: center;
   margin-bottom: 10px
 }
+.bg-wapuu{
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
