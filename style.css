@@ -89,7 +89,6 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     color: #fff;
   }
   .btn-buy-ticket a:hover, .wp-block-button a:hover, .wp-block-jetpack-button button:hover {
-    font-weight: bold;
     transform: translateY(-2px); /* Desplaza ligeramente hacia arriba */
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
