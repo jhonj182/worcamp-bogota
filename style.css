@@ -515,7 +515,8 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   margin-bottom: 10px
 }
 .bg-wapuu{
-  background-size: contain;
-  background-repeat: no-repeat;
+  background-size: contain!important;
+  background-repeat: no-repeat!important;
   background-position: center;
+  background-color: #fff!important;
 }
