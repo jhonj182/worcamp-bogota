@@ -559,3 +559,6 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   background-position: center;
   background-color: #fff!important;
 }
+.fila-50{
+  text-align: center;
+}
