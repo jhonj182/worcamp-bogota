@@ -228,9 +228,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     }
   }
   @media (max-width: 769px) {
-    .has-global-padding{
-      padding: 10px!important;
-    }
+    
     .tix_tickets_table.tix-attendee-form tbody tr, .tix_tickets_table.tix-attendee-form tbody td{
       width: 100%!important;
       max-width: 80vw;
