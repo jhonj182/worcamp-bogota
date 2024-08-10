@@ -237,7 +237,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
       padding: 0;
     }
     .page-id-13 form {
-      overflow-x: hidden;
+      /* overflow-x: hidden; */
     }
   .title-sponsors h2{
   font-size: 24px
