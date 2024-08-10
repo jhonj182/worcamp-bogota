@@ -311,6 +311,8 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   
     .tix_tickets_table{
       width: 100%;
+      display: flex;
+      overflow-x: scroll;
       flex-direction: row;
       flex-wrap: wrap;
     }
