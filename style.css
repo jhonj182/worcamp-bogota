@@ -318,7 +318,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     }
   }
   .tix_tickets_table.tix-attendee-form tbody, .tix_tickets_table.tix-attendee-form tbody tr, .tix_tickets_table.tix-attendee-form tbody td{
-    width: 100%;
+    width: 50%;
   }
   .tix-order-summary .tix-column-description{
     width: 100%;
