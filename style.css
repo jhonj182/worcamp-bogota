@@ -251,7 +251,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
           margin: 0 20px;
       }
       .tix_tickets_table{
-        width: 100%;
+        /* width: 100%; */
         overflow-x: scroll;
       }
       .wp-site-blocks{
@@ -283,7 +283,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
     }
     .tix_tickets_table{
-      width: 100%;
+      /* width: 100%; */
       flex-direction: row;
       flex-wrap: wrap;
     }
@@ -309,7 +309,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   }
   
     .tix_tickets_table{
-      width: 100%;
+      /* width: 100%; */
       flex-direction: row;
       flex-wrap: wrap;
     }
