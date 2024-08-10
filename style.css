@@ -304,6 +304,11 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
      padding-bottom: 50px;
   }
   }
+  @media (min-width: 770px){
+    .page-id-13 #tix{
+      max-width: 90%!important;
+    }
+  }
   @media (max-width: 769px) {
     .page-id-13 #tix{
       max-width: 100%!important;
@@ -469,9 +474,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   .page-id-13 .has-global-padding{
     padding: 0!important;
   }
-  .page-id-13 #tix{
-    max-width: 90%!important;
-  }
+
   .tix-column-price{
     font-weight: bold;
   }
