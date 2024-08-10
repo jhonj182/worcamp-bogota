@@ -2,7 +2,9 @@
   text-align: center!important;
 
 }
-
+*{
+  box-sizing: border-box!important;
+}
 .wordcamp-schedule__column-header {
   position: sticky;
   top: 0;
