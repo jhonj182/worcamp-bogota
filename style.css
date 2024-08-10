@@ -305,6 +305,9 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   }
   }
   @media (max-width: 769px) {
+    footer > .wp-block-group{
+      padding: 20px!important;
+    }
     .wp-block-buttons>.wp-block-button.has-custom-width .wp-block-button__link{
       max-width: 100vw;
       height: 50px;
