@@ -305,6 +305,9 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   }
   }
   @media (max-width: 769px) {
+    .page-id-13 #tix{
+      max-width: 100%!important;
+    }
     #tix .tix-wide-tab{
       width: 100%!important;
     }
