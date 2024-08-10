@@ -248,7 +248,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   font-size: 24px
   }
       .btn-buy-ticket {
-        /* position: fixed; */
+        position: fixed;
           bottom: 20px;
           left: 0;
           right: 0;
