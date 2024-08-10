@@ -232,7 +232,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
       padding: 5PX 0px;
       display: flex;
       flex-direction: column;
-      border-bottom: 2PX SOLID #F8F8F8;
+      border-bottom: 0PX SOLID #F8F8F8;
     }
     .page-id-13 .entry-content,
     .page-id-13 .wp-block-group  {
