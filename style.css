@@ -612,6 +612,9 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
 .wp-block-group.alignfull.hide-mobile.is-layout-flow.wp-block-group-is-layout-flow{
   max-width: 100vw;
 }
+.hero .wp-block-cover__inner-container{
+  width: 50%;
+}
 .title-bg{
   background: rgba(0,0,0,0.5);
 -webkit-backdrop-filter: blur(10px);
