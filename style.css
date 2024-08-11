@@ -499,26 +499,49 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     min-width: 300px;
   }
   @media screen and (max-width:992px){
-    .fila-50 figure{
-      margin-bottom: 20px;
-    }
-    .fila-50{
+      .fila-50 figure{
+        margin-bottom: 20px;
+      }
+      .fila-50{
 
-      text-align: center;
-    }
-    .page-id-13 .tix-tickets-list tbody tr,
-    .page-id-13 .tix-order-summary tbody tr{
-      display: flex!important;
-      flex-direction: column!important;
+        text-align: center;
+      }
+      .page-id-13 .tix-tickets-list tbody tr,
+      .page-id-13 .tix-order-summary tbody tr{
+        display: flex!important;
+        flex-direction: column!important;
 
-    }
-    .page-id-13 .tix-tickets-list thead{
-      display: none;
+      }
+      .page-id-13 .tix-tickets-list thead,
+      .page-id-13 .tix-order-summary thead{
+        display: none;
 
-    }
-    
-    .page-id-13 .tix-tickets-list tbody .tix-column-quantity::before {
-      content: "Seleccione Cantidad";
+      }
+      
+      .page-id-13 .tix-tickets-list tbody .tix-column-quantity::before {
+        content: "Seleccione Cantidad";
+        display: block;
+        text-align: center;
+        background-color: #800020; /* Color vinotinto */
+        color: white; /* Color del texto */
+        padding: 10px; /* Espaciado opcional */
+        width: 100%;
+        box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+      } 
+          
+      .page-id-13 .tix-tickets-list tbody .tix-column-description::before,
+      .page-id-13 .tix-order-summary tbody .tix-column-description::before {
+        content: "Descripción";
+        display: block;
+        text-align: center;
+        background-color: #800020; /* Color vinotinto */
+        color: white; /* Color del texto */
+        padding: 10px; /* Espaciado opcional */
+        width: 100%;
+        box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    } 
+    .page-id-13 .tix-order-summary tbody .tix-column-price::before {
+      content: "Total";
       display: block;
       text-align: center;
       background-color: #800020; /* Color vinotinto */
@@ -526,73 +549,51 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
       padding: 10px; /* Espaciado opcional */
       width: 100%;
       box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
-  } 
-      
-  .page-id-13 .tix-tickets-list tbody .tix-column-description::before,
-  .page-id-13 .tix-order-summary tbody .tix-column-description::before {
-    content: "Descripción";
-    display: block;
-    text-align: center;
-    background-color: #800020; /* Color vinotinto */
-    color: white; /* Color del texto */
-    padding: 10px; /* Espaciado opcional */
-    width: 100%;
-    box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
-} 
-.page-id-13 .tix-order-summary tbody .tix-column-price::before {
-  content: "Total";
-  display: block;
-  text-align: center;
-  background-color: #800020; /* Color vinotinto */
-  color: white; /* Color del texto */
-  padding: 10px; /* Espaciado opcional */
-  width: 100%;
-  box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
-}
-.page-id-13 .tix-order-summary tbody .tix-column-quantity::before {
-  content: "Cantidad de entradas";
-  display: block;
-  text-align: center;
-  background-color: #800020; /* Color vinotinto */
-  color: white; /* Color del texto */
-  padding: 10px; /* Espaciado opcional */
-  width: 100%;
-  box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
-}
-.page-id-13 .tix-order-summary tbody .tix-column-per-ticket::before {
-  content: "Precio Unitario";
-  display: block;
-  text-align: center;
-  background-color: #800020; /* Color vinotinto */
-  color: white; /* Color del texto */
-  padding: 10px; /* Espaciado opcional */
-  width: 100%;
-  box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
-} 
-.page-id-13 .tix-tickets-list tbody .tix-column-price::before{
-  content: "Precio";
-  display: block;
-  text-align: center;
-  background-color: #800020; /* Color vinotinto */
-  color: white; /* Color del texto */
-  padding: 10px; /* Espaciado opcional */
-  width: 100%;
-  box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
-} 
-    
-.page-id-13 .tix-tickets-list tbody .tix-column-remaining::before {
-  content: "Entradas Disponibles";
-  display: block;
-  text-align: center;
-  background-color: #800020; /* Color vinotinto */
-  color: white; /* Color del texto */
-  padding: 10px; /* Espaciado opcional */
-  width: 100%;
-  box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
-} 
-.page-id-13 .tix-tickets-list tbody td{
-  text-align: center;
-}
+    }
+    .page-id-13 .tix-order-summary tbody .tix-column-quantity::before {
+      content: "Cantidad de entradas";
+      display: block;
+      text-align: center;
+      background-color: #800020; /* Color vinotinto */
+      color: white; /* Color del texto */
+      padding: 10px; /* Espaciado opcional */
+      width: 100%;
+      box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    }
+    .page-id-13 .tix-order-summary tbody .tix-column-per-ticket::before {
+      content: "Precio Unitario";
+      display: block;
+      text-align: center;
+      background-color: #800020; /* Color vinotinto */
+      color: white; /* Color del texto */
+      padding: 10px; /* Espaciado opcional */
+      width: 100%;
+      box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    } 
+    .page-id-13 .tix-tickets-list tbody .tix-column-price::before{
+      content: "Precio";
+      display: block;
+      text-align: center;
+      background-color: #800020; /* Color vinotinto */
+      color: white; /* Color del texto */
+      padding: 10px; /* Espaciado opcional */
+      width: 100%;
+      box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    } 
+        
+    .page-id-13 .tix-tickets-list tbody .tix-column-remaining::before {
+      content: "Entradas Disponibles";
+      display: block;
+      text-align: center;
+      background-color: #800020; /* Color vinotinto */
+      color: white; /* Color del texto */
+      padding: 10px; /* Espaciado opcional */
+      width: 100%;
+      box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+    } 
+    .page-id-13 .tix-tickets-list tbody td{
+      text-align: center;
+    }
 
   }
 .sponsors-home figure{
