@@ -317,11 +317,11 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   }
   @media (max-width: 769px) {
     .tix-order-sumary{
-      max-width: 90vw;
-      overflow-x: hidden;
+      max-width: 90vw !important;
+      overflow-x: hidden!important;
     }
     .tix-order-sumary tbody{
-      flex-direction: column;
+      flex-direction: column!important;
     }
     #tix_checkout_form h2{
       font-size: 24px
