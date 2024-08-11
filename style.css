@@ -539,8 +539,18 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     width: 100%;
     box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
 } 
-    
-.page-id-13 .tix-tickets-list tbody .tix-column-price::before {
+.page-id-13 .tix-order-summary tbody .tix-column-per-ticket::before {
+  content: "Precio Unitario";
+  display: block;
+  text-align: center;
+  background-color: #800020; /* Color vinotinto */
+  color: white; /* Color del texto */
+  padding: 10px; /* Espaciado opcional */
+  width: 100%;
+  box-sizing: border-box; /* Asegura que el padding no afecte el ancho total */
+} 
+.page-id-13 .tix-tickets-list tbody .tix-column-price::before,
+.page-id-13 .tix-order-summary tbody .tix-column-price::before {
   content: "Precio";
   display: block;
   text-align: center;
