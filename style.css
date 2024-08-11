@@ -506,7 +506,8 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
 
       text-align: center;
     }
-    .page-id-13 .tix-tickets-list tbody tr{
+    .page-id-13 .tix-tickets-list tbody tr,
+    .page-id-13 .tix-order-summary tbody tr{
       display: flex!important;
       flex-direction: column!important;
 
