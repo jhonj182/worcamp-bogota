@@ -616,8 +616,8 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   width: 50%;
 }
 .title-bg{
-  background: rgba(0,0,0,0.5);
--webkit-backdrop-filter: blur(10px);
-backdrop-filter: blur(10px);
-border: 1px solid rgba(0,0,0,0.25);
+  background: rgba(0,0,0,0.5)!important;
+-webkit-backdrop-filter: blur(10px)!important;
+backdrop-filter: blur(10px)!important;
+border: 1px solid rgba(0,0,0,0.25)!important;
 }
