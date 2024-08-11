@@ -228,6 +228,9 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     }
   }
   @media (max-width: 769px) {
+    .blog-description-parent .wp-block-post-excerpt__excerpt{
+      line-height: 1;
+    }
     .blog-description-parent{
       padding-right: 10px;
       padding-left: 10px;
