@@ -566,3 +566,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   background-position: center;
   background-color: #fff!important;
 }
+.tix-ticket-excerpt{
+  display: inline-block;
+  line-height: 1;
+}
