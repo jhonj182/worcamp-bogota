@@ -499,6 +499,9 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     min-width: 300px;
   }
   @media screen and (max-width:992px){
+    .hero .title-bg{
+      width: 100%;
+    }
       .fila-50 figure{
         margin-bottom: 20px;
       }
