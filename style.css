@@ -514,8 +514,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
       }
       .page-id-13 .tix-tickets-list thead,
       .page-id-13 .tix-order-summary thead{
-        display: none;
-
+        display: none!important;
       }
       
       .page-id-13 .tix-tickets-list tbody .tix-column-quantity::before {
