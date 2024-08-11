@@ -45,7 +45,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   font-size: clamp(1.648rem, 1.648rem + ((1vw - 0.2rem) * 1.92), 1rem)!important;
   background-color: #fdea58!important;
 }
-.wcpt-schedule td, .wordcamp-schedule__session, .wordcamp-schedule__time-slot-header , .tix-tickets-list th, .tix-tickets-list td {
+.wcpt-schedule td, .wordcamp-schedule__session, .wordcamp-schedule__time-slot-header , .tix-tickets-list th, .tix-tickets-list td, .tix-order-summary td {
   border: 2px solid #920013!important;
   margin: 5px!important;
 }
