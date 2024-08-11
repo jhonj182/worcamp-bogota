@@ -228,7 +228,10 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     }
   }
   @media (max-width: 769px) {
-    
+    .blog-description-parent{
+      padding-right: 10px;
+      padding-left: 10px;
+    }
     .tix_tickets_table.tix-attendee-form tbody tr, .tix_tickets_table.tix-attendee-form tbody td{
       width: 100%!important;
       max-width: 80vw;
