@@ -260,7 +260,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   font-size: 24px
   }
       .btn-buy-ticket {
-        /* position: fixed; */
+        position: fixed;
           bottom: 20px;
           left: 0;
           right: 0;
@@ -524,9 +524,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     .wp-image-2408{
       max-width: 150px!important;
     }
-    header .wp-block-column.is-vertically-aligned-center.has-global-padding.is-layout-constrained.wp-container-core-column-is-layout-2.wp-block-column-is-layout-constrained{
-      flex-basis: 100%!important;
-    }
+
     header .wp-block-column{
       width: 100%!important;
     }
