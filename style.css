@@ -2,6 +2,9 @@
   text-align: center!important;
 
 }
+a, button{
+  border-radius: 6px!important;
+}
 *{
   box-sizing: border-box!important;
 }
