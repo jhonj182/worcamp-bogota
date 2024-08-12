@@ -713,5 +713,5 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   margin-bottom: 20px;
 }
 h1, h2, h3, h4, h5, h6{
-  font-family: 'Lilita One';
+  font-family: 'Lilita One', 'sans-serif' !important;
 }
