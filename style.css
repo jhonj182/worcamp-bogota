@@ -685,7 +685,9 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) {
   display: bloque;
   }
-  
+  header .wp-block-navigation__responsive-container{
+    display: none;
+  }
   .wp-block-navigation__responsive-container:not(.hidden-by-default):not(.is-menu-open) .wp-block-navigation__responsive-container-close {
       display: none
   }
