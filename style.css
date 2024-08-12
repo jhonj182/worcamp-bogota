@@ -529,7 +529,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     }
     header .wp-block-column{
       width: 100%!important;
-      align-items: center!important;
+      justify-content: center!important;
     }
     .hero .title-bg{
       width: 100%!important;
