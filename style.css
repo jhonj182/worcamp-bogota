@@ -264,7 +264,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
           bottom: 20px;
           left: 0;
           right: 0;
-          width: calc(100% - 40px);
+          width: calc(100vw - 40px);
           margin: 0 20px;
       }
       .tix_tickets_table{
