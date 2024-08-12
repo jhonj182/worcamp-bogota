@@ -709,3 +709,6 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
       height: 50px;
     }
   }
+.single p{
+  margin-bottom: 20px;
+}
