@@ -675,7 +675,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   }
   }
   
-  @media (min-width: 600px) y (max-width: 1024px) {
+  @media (min-width: 600px) and (max-width: 1024px) {
   .wp-block-navigation__responsive-container-open:not(.always-showed) {
   display: flex;
   }
