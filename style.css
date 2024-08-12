@@ -512,8 +512,8 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
   }
   @media screen and (max-width:992px){
     .btn-buy-ticket{
-      padding-right: 10px;
-      padding-left: 10px;
+      padding-right: 10px!important;
+      padding-left: 10px!important;
     }
     header .wp-block-column:first-child{
       max-width: 170px;
