@@ -511,6 +511,9 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     min-width: 300px;
   }
   @media screen and (max-width:992px){
+    header .wp-block-column{
+      max-width: 170px;
+    }
     .wp-image-2408{
       max-width: 150px!important;
     }
