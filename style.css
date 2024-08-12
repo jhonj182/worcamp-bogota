@@ -514,6 +514,9 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
     .wp-image-2408{
       max-width: 150px!important;
     }
+    header .wp-block-column{
+      width: 100%!important;
+    }
     .hero .title-bg{
       width: 100%!important;
     }
