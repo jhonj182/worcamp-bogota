@@ -715,3 +715,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
 h1, h2, h3, h4, h5, h6{
   font-family: 'Lilita One', 'sans-serif' !important;
 }
+h4.wordcamp-schedule__session-title{
+  font-size: 32px;
+  line-height: 32px;
+}
