@@ -719,3 +719,6 @@ h4.wordcamp-schedule__session-title{
   font-size: 32px;
   line-height: 32px;
 }
+.wp-block-heading{
+  margin-bottom:20px;
+}
