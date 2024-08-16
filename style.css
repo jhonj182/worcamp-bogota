@@ -721,6 +721,8 @@ h4.wordcamp-schedule__session-title{
 }
 .wp-block-heading{
   margin-bottom:20px;
+  margin-top:20px;
+
 }
 .is-type-video, .wp-block-image{
   margin-bottom: 20px!important;
