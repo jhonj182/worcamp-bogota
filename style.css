@@ -723,5 +723,5 @@ h4.wordcamp-schedule__session-title{
   margin-bottom:20px;
 }
 .is-type-video{
-  margin-bottom: 20px;
+  margin-bottom: 20px!important;
 }
