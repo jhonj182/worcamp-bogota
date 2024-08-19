@@ -727,3 +727,7 @@ h4.wordcamp-schedule__session-title{
 .is-type-video, .wp-block-image{
   margin-bottom: 20px!important;
 }
+.form-contributor-day .grunion-field-wrap:not(.grunion-field-textarea-wrap){
+  width: 100%;
+  min-width: 100%;
+}
