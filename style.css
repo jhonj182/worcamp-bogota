@@ -160,6 +160,7 @@ body:not(.block-editor-page) .wordcamp-schedule:not(.is-style-single-column-layo
       border: none;
       border-bottom: 1px solid #000;
       border-radius: 0px;
+      background-color: transparent;
       box-sizing: border-box;
       transition: border-color 0.3s, box-shadow 0.3s;
   }
