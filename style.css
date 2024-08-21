@@ -794,9 +794,25 @@ box-shadow: 6px 4px 0 0 rgba(0, 0, 0, 0.28);
 .wcb_speaker-template-default main.wp-block-group > div{
 background-color: #fff!important;
 }
+.page-slug-speakers main.wp-block-group .wordcamp-speakers__sessions-heading{
+  font-size: 20px;
+  color: #000;
+  background-color: #ffd300;
+  padding: 10px 20px;
+  line-height: 1;
+    -webkit-box-shadow: 6px 4px 0 0 #d30521;
+  -moz-box-shadow: 6px 4px 0 0 #d30521;
+  box-shadow: 6px 4px 0 0 #d30521;
+}
 .page-slug-speakers .wordcamp-post-list{
   grid-column-gap: 2.5em!important;
   grid-row-gap: 2.5em!important
+}
+.page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post p{
+
+}
+.page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post p{
+  word-wrap: break-word
 }
 .page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post{
   border: 2px solid #d30521!important;
