@@ -782,6 +782,13 @@ box-shadow: 6px 4px 0 0 rgba(0, 0, 0, 0.28);
 .wcb_speaker-template-default main.wp-block-group > div{
 background-color: #fff!important;
 }
+.page-slug-speakers .wordcamp-post-list{
+  grid-colulmn-gap: 2.5em!important;
+  grid-row-gap: 2.5em!important
+}
+.page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post{
+
+}
 @media only screen and (min-width: 65rem) {
   .page-slug-speakers.page-template-default .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
       max-width: 1190px!important;
