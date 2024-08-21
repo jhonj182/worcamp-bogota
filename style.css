@@ -785,7 +785,7 @@ h4.wordcamp-schedule__session-title{
 }
 .wcb_speaker-template-default main.wp-block-group, .wcb_session-template-default main.wp-block-group{
   border: 2px solid #d30521!important;
-  max-width: 620px!important;
+  max-width: 700px!important;
   -webkit-box-shadow: 6px 4px 0 0 rgba(0, 0, 0, 0.28);
 -moz-box-shadow: 6px 4px 0 0 rgba(0, 0, 0, 0.28);
 box-shadow: 6px 4px 0 0 rgba(0, 0, 0, 0.28);
