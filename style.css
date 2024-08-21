@@ -737,7 +737,7 @@ h4.wordcamp-schedule__session-title{
   height: 150px!important;
 }
 .avatar-speaker{
-  border: 2px solid #d30521;
+ 
   /* outline-offset: 15px; */
 }
 .avatar-speaker h1{
@@ -746,7 +746,11 @@ h4.wordcamp-schedule__session-title{
   padding: 10px 20px;
   line-height: 1;
 }
-main.wp-block-group{
+.main.wp-block-group{
+  border: 2px solid #d30521;
   max-width: 800px!important;
   margin: 0 auto;
+}
+.main.wp-block-group > div{
+background-color: #fff!important;
 }
