@@ -740,14 +740,14 @@ h4.wordcamp-schedule__session-title{
  
   /* outline-offset: 15px; */
 }
-.avatar-speaker h1{
+.wcb_speaker-template-default main.wp-block-group h1{
   color: #fff;
   background-color: #d30521;
   padding: 10px 20px;
   line-height: 1;
   border-radius: 6px!important;
 }
-.avatar-speaker h3{
+.wcb_speaker-template-default main.wp-block-group h3{
   color: #000;
   background-color: #ffd300;
   padding: 10px 20px;
