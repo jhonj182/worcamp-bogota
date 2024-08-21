@@ -847,6 +847,6 @@ padding: 10px
       grid-row-gap: 2.5em;
   }
 }
-.page-slug-ponentes .wordcamp-post-list.has-layout-grid {
+.page-slug-speakers .wordcamp-post-list.has-layout-grid {
   grid-template-columns: 1fr!important;
 }
