@@ -751,6 +751,9 @@ h4.wordcamp-schedule__session-title{
   box-shadow: 6px 4px 0 0 #ffd300;
   margin-bottom: 10px;
 }
+.wcb_speaker-template-default main.wp-block-group p{
+  font-weight: bold;
+}
 .wcb_speaker-template-default main.wp-block-group h3{
   color: #000;
   background-color: #ffd300;
