@@ -814,7 +814,7 @@ background-color: #fff!important;
 }
 .page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post .wordcamp-speakers__content{
   max-height: 600px;
-  overflow: scroll;
+  overflow-y: scroll;
 
 }
 .page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post p strong{
