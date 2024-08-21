@@ -812,7 +812,9 @@ background-color: #fff!important;
   grid-column-gap: 2.5em!important;
   grid-row-gap: 2.5em!important
 }
-.page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post p{
+.page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post .wordcamp-speakers__content{
+  max-height: 600px;
+  overflow: scroll;
 
 }
 .page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post p strong{
