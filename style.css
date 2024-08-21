@@ -746,6 +746,9 @@ h4.wordcamp-schedule__session-title{
   padding: 10px 20px;
   line-height: 1;
 }
+main.wp-block-group .has-global-padding{
+  padding: 20px!important;
+}
 main.wp-block-group{
   border: 2px solid #d30521!important;
   max-width: 800px!important;
