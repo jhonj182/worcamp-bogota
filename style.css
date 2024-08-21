@@ -862,7 +862,7 @@ background: #fff!important;
 }.wp_session-template-default  .wp-block-group-is-layout-constrained{
   margin-bottom: 10px!important;
 }
-.wp-block-wordcamp-session-speakers .wp-block-wordcamp-session-speakers__byline{
+.wcb-block-wordcamp-session-speakers .has-global-padding.wp-block-wordcamp-session-speakers__byline{
   font-size: 20px;
   color: #000;
   max-width: 200px;
