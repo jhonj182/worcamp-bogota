@@ -848,7 +848,9 @@ padding: 10px
   }
 }
 @media only screen and (max-width: 66rem) {
+  
 .page-slug-speakers .wordcamp-post-list.has-layout-grid {
   grid-template-columns: 1fr!important;
+  padding: 0!important;
 }
 }
