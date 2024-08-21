@@ -848,5 +848,5 @@ padding: 10px
   }
 }
 .page-slug-ponentes .wordcamp-post-list.has-layout-grid {
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr!important;
 }
