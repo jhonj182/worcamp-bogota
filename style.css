@@ -853,8 +853,8 @@ padding: 10px;
 background: #fff!important;
 }
 #tix-attendees .avatar{
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
 }
 @media only screen and (min-width: 65rem) {
   .tix-attendee-list.tix-columns-3{grid-template-columns: 1fr;
