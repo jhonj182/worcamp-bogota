@@ -816,7 +816,9 @@ background-color: #fff!important;
 
 }
 .page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post p{
-  word-wrap: break-word
+  word-wrap: break-word;
+  text-align: center;
+  font-weight: bold;
 }
 .page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post{
   border: 2px solid #d30521!important;
