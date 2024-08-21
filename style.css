@@ -855,3 +855,7 @@ background: #fff!important;
   padding: 0!important;
 }
 }
+.wp-block-wordcamp-session-speakers{
+  display: flex;
+  flex-direction: column;
+}
