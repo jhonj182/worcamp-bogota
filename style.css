@@ -811,8 +811,15 @@ background-color: #fff!important;
 
 .page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post .wordcamp-speakers__content{
   max-height: 600px;
-  overflow-y: scroll;
+  overflow-y: auto;
+/* Ocultar la barra de scroll cuando no se utiliza */
+  overflow: auto;
+  scrollbar-width: none; /* Para Firefox */
+  -ms-overflow-style: none; /* Para Internet Explorer y Edge */
+}
 
+.elemento::-webkit-scrollbar {
+  display: none; /* Para navegadores basados en WebKit (Chrome, Safari) */
 }
 .page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post p strong{
   color: #FF5700;
