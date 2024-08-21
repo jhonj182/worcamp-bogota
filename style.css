@@ -859,3 +859,13 @@ background: #fff!important;
   display: flex;
   flex-direction: column;
 }
+.wp-block-wordcamp-session-speakers .wp-block-wordcamp-session-speakers__byline{
+  font-size: 20px;
+  color: #000;
+  background-color: #ffd300;
+  padding: 10px 20px;
+  line-height: 1;
+    -webkit-box-shadow: 6px 4px 0 0 #d30521;
+  -moz-box-shadow: 6px 4px 0 0 #d30521;
+  box-shadow: 6px 4px 0 0 #d30521;
+}
