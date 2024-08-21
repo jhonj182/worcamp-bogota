@@ -752,10 +752,12 @@ h4.wordcamp-schedule__session-title{
   margin-bottom: 10px;
 }
 .page-slug-speakers .wordcamp-speakers__title a{
+  color: #fff!important;
   text-decoration: none!important;
 }
 .page-slug-speakers .wordcamp-speakers__title a:hover{
   text-decoration: underline!important;
+  color: #fff!important;
 }
 .page-slug-speakers .wordcamp-speakers__title{
   font-size: 24px!important;
