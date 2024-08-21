@@ -784,8 +784,8 @@ background-color: #fff!important;
 }
 @media only screen and (min-width: 65rem) {
   .page-slug-ponentes.page-template-default .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
-      max-width: 1190px;
-      max-width: 74.375rem;
+      max-width: 1190px!important;
+      max-width: 74.375rem!important;
       margin: 0 auto;
       position: relative;
       padding: 0 15px;
