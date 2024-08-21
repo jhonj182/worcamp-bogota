@@ -865,7 +865,8 @@ background: #fff!important;
 }
 .wp-block-wordcamp-session-speakers .wp-block-wordcamp-session-speakers__byline{
   font-size: 20px;
-  color: #000;
+  color: #000!important;
+  font-weight: bold;
   max-width: 200px;
   background-color: #ffd300;
   padding: 10px 20px;
