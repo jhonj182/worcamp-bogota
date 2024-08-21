@@ -748,10 +748,13 @@ h4.wordcamp-schedule__session-title{
   border-radius: 6px!important;
 }
 .avatar-speaker h3{
-  color: #fff;
-  background-color: #d30521;
+  color: #000;
+  background-color: #ffd300;
   padding: 10px 20px;
   line-height: 1;
+  -webkit-box-shadow: 6px 4px 0 0 #d30521;
+-moz-box-shadow: 6px 4px 0 0 #d30521;
+box-shadow: 6px 4px 0 0 #d30521;
 }
 .wcb_speaker-template-default main.wp-block-group .has-global-padding{
   padding: 20px!important;
