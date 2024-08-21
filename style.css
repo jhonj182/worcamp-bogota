@@ -740,7 +740,7 @@ h4.wordcamp-schedule__session-title{
  
   /* outline-offset: 15px; */
 }
-.avatar-speaker h1{
+.avatar-speaker h1, h3{
   color: #fff;
   background-color: #d30521;
   padding: 10px 20px;
