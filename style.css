@@ -856,7 +856,7 @@ background: #fff!important;
   width: 100px;
   height: 100px;
 }
-.tix-atendee-list{
+.tix-attendee-list li{
   border: 2px solid #d30521!important;
   -webkit-box-shadow: 6px 4px 0 0 rgba(0, 0, 0, 0.28);
 -moz-box-shadow: 6px 4px 0 0 rgba(0, 0, 0, 0.28);
