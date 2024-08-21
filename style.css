@@ -751,6 +751,16 @@ h4.wordcamp-schedule__session-title{
   box-shadow: 6px 4px 0 0 #ffd300;
   margin-bottom: 10px;
 }
+.page-slug-speakers .wordcamp-speakers__title a{
+  text-decoration: none!important;
+}
+.page-slug-speakers .wordcamp-speakers__title a:hover{
+  text-decopration: underline!important;
+}
+.page-slug-speakers .wordcamp-speakers__title{
+  font-size: 24px!important;
+
+}
 .wcb_speaker-template-default main.wp-block-group p{
   font-weight: bold;
   text-align: center;
