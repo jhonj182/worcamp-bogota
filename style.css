@@ -854,6 +854,16 @@ background: #fff!important;
 }
 
 @media only screen and (min-width: 65rem) {
+  .tix-attendee-list.tix-columns-3{grid-template-columns: 1fr;
+  column-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+  /* column-gap: 10px; */
+  align-items: center;
+  display: grid;
+  flex: 1 1 auto;
+  padding-bottom: 3.75rem;
+  padding-top: 3.125rem;
+  position: relative;}
   .page-slug-speakers.page-template-default .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
       max-width: 1190px!important;
       max-width: 74.375rem!important;
@@ -869,7 +879,16 @@ background: #fff!important;
   }
 }
 @media only screen and (max-width: 66rem) {
-  
+  .tix-attendee-list.tix-columns-3{grid-template-columns: 1fr;
+    column-gap: 10px;
+    grid-template-columns: 1fr;
+    /* column-gap: 10px; */
+    align-items: center;
+    display: grid;
+    flex: 1 1 auto;
+    padding-bottom: 3.75rem;
+    padding-top: 3.125rem;
+    position: relative;}
 .page-slug-speakers .wordcamp-post-list.has-layout-grid {
   grid-template-columns: 1fr!important;
   padding: 0!important;
