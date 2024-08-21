@@ -859,10 +859,11 @@ background: #fff!important;
   display: flex;
   flex-direction: column;
   margin-bottom: 10px;
-}.wp_session-template-default  .wp-block-group-is-layout-constrained{
+}
+.wcb_session-template-default  .wp-block-group-is-layout-constrained{
   margin-bottom: 10px!important;
 }
-.wcb-block-wordcamp-session-speakers .has-global-padding.wp-block-wordcamp-session-speakers__byline{
+.wp-block-wordcamp-session-speakers .has-global-padding.wp-block-wordcamp-session-speakers__byline{
   font-size: 20px;
   color: #000;
   max-width: 200px;
