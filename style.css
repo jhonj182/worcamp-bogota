@@ -736,7 +736,13 @@ h4.wordcamp-schedule__session-title{
   width: 150px!important;
   height: 150px!important;
 }
-.avatar-speaker img{
-  border: 5px solid #d30521;
+.avatar-speaker{
+  border: 2px solid #d30521;
   /* outline-offset: 15px; */
+}
+.avatar-speaker h1{
+  color: #fff;
+  background-color: #d30521;
+  padding: 10px 20px;
+  line-height: 1;
 }
