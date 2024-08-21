@@ -864,6 +864,18 @@ box-shadow: 6px 4px 0 0 rgba(0, 0, 0, 0.28);
 padding: 10px;
 background: #fff!important;
 }
+.tix-field.tix-attendee-name{
+  margin-left: 170px;
+  color: #fff;
+  background-color: #d30521;
+  padding: 10px 20px;
+  line-height: 1;
+  border-radius: 6px!important;
+  -webkit-box-shadow: 6px 4px 0 0 #ffd300;
+  -moz-box-shadow: 6px 4px 0 0 #ffd300;
+  box-shadow: 6px 4px 0 0 #ffd300;
+  margin-bottom: 10px;
+}
 @media only screen and (min-width: 65rem) {
   .tix-attendee-list.tix-columns-3{grid-template-columns: 1fr;
     row-gap: 10px;
