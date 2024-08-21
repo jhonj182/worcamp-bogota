@@ -815,7 +815,12 @@ background-color: #fff!important;
 .page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post p{
 
 }
+.page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post p strong{
+  color: #FF5700;
+  font-size:16px!important
+}
 .page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post p{
+  font-size: 14px!important;
   word-wrap: break-word;
   text-align: center;
   font-weight: bold;
