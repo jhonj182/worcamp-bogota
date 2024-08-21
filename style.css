@@ -817,10 +817,6 @@ background-color: #fff!important;
   scrollbar-width: none; /* Para Firefox */
   -ms-overflow-style: none; /* Para Internet Explorer y Edge */
 }
-
-.page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post .wordcamp-speakers__content::-webkit-scrollbar {
-  display: none; /* Para navegadores basados en WebKit (Chrome, Safari) */
-}
 /* Estilo para navegadores basados en WebKit (Chrome, Safari) */
 .page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post .wordcamp-speakers__content::-webkit-scrollbar {
   width: 10px; /* Ancho de la barra vertical */
@@ -828,7 +824,7 @@ background-color: #fff!important;
 }
 
 .page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post .wordcamp-speakers__content::-webkit-scrollbar-thumb {
-  background-color: #007bff; /* Color de la barra de desplazamiento */
+  background-color: #red; /* Color de la barra de desplazamiento */
   border-radius: 10px;
 }
 
@@ -839,7 +835,7 @@ background-color: #fff!important;
 /* Estilo para Firefox */
 .page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post .wordcamp-speakers__content {
   scrollbar-width: thin;
-  scrollbar-color: #007bff #f0f0f0; /* thumb color | track color */
+  scrollbar-color: #red #f0f0f0; /* thumb color | track color */
 }
 
 .page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post p strong{
