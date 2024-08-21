@@ -755,6 +755,7 @@ h4.wordcamp-schedule__session-title{
   font-weight: bold;
 }
 .wcb_speaker-template-default main.wp-block-group h3{
+  font-size: 20px;
   color: #000;
   background-color: #ffd300;
   padding: 10px 20px;
