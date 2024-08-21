@@ -877,6 +877,9 @@ background: #fff!important;
   box-shadow: 6px 4px 0 0 #ffd300;
   margin-bottom: 10px;
 }
+.tix-attendee-list .tix-field{
+  margin-left: 110px!important;
+}
 @media only screen and (min-width: 65rem) {
   .tix-attendee-list.tix-columns-3{grid-template-columns: 1fr;
     row-gap: 10px;
