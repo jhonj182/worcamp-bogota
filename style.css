@@ -865,7 +865,7 @@ padding: 10px;
 background: #fff!important;
 }
 .tix-field.tix-attendee-name{
-  margin-left: 170px;
+  margin-left: 170px!important;
   color: #fff;
   background-color: #d30521;
   padding: 10px 20px;
