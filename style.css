@@ -883,6 +883,7 @@ background: #fff!important;
 }
 #tix-attendees .tix-columns-3 li{
   width: 100%!important;
+  height: 150px;
 }
 @media only screen and (max-width: 66rem) {
   .tix-attendee-list.tix-columns-3{grid-template-columns: 1fr;
