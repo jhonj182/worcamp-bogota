@@ -829,7 +829,8 @@ background-color: #fff!important;
   -webkit-box-shadow: 6px 4px 0 0 rgba(0, 0, 0, 0.28);
 -moz-box-shadow: 6px 4px 0 0 rgba(0, 0, 0, 0.28);
 box-shadow: 6px 4px 0 0 rgba(0, 0, 0, 0.28);
-padding: 10px
+padding: 10px;
+background: #fff!important;
 }
 
 @media only screen and (min-width: 65rem) {
