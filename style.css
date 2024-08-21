@@ -818,9 +818,30 @@ background-color: #fff!important;
   -ms-overflow-style: none; /* Para Internet Explorer y Edge */
 }
 
-.elemento::-webkit-scrollbar {
+.page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post .wordcamp-speakers__content::-webkit-scrollbar {
   display: none; /* Para navegadores basados en WebKit (Chrome, Safari) */
 }
+/* Estilo para navegadores basados en WebKit (Chrome, Safari) */
+.page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post .wordcamp-speakers__content::-webkit-scrollbar {
+  width: 10px; /* Ancho de la barra vertical */
+  height: 10px; /* Altura de la barra horizontal */
+}
+
+.page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post .wordcamp-speakers__content::-webkit-scrollbar-thumb {
+  background-color: #007bff; /* Color de la barra de desplazamiento */
+  border-radius: 10px;
+}
+
+.page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post .wordcamp-speakers__content::-webkit-scrollbar-track {
+  background-color: #f0f0f0; /* Color de la pista */
+}
+
+/* Estilo para Firefox */
+.page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post .wordcamp-speakers__content {
+  scrollbar-width: thin;
+  scrollbar-color: #007bff #f0f0f0; /* thumb color | track color */
+}
+
 .page-slug-speakers .wordcamp-post-list .wordcamp-post-list__post p strong{
   color: #FF5700;
   font-size:16px!important
