@@ -878,6 +878,9 @@ background: #fff!important;
       grid-row-gap: 2.5em;
   }
 }
+#tix-attendees .tix-columns-3 li{
+  width: 100%!important;
+}
 @media only screen and (max-width: 66rem) {
   .tix-attendee-list.tix-columns-3{grid-template-columns: 1fr;
     column-gap: 10px;
