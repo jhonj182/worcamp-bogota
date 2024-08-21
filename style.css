@@ -842,7 +842,7 @@ padding: 10px
   }
 
   .page-slug-speakers .wordcamp-post-list.has-layout-grid {
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(3, 1fr)!important;
       grid-column-gap: 2.5em;
       grid-row-gap: 2.5em;
   }
