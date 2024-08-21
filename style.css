@@ -876,3 +876,6 @@ background: #fff!important;
   box-shadow: 6px 4px 0 0 #d30521;
   margin-bottom: 10px;
 }
+.wcb_session-template-default .wp-block-post-featured-image{
+  margin: 10px 0px !important;
+}
