@@ -951,3 +951,7 @@ background: #fff!important;
 .wcb_session-template-default .wp-block-post-featured-image{
   margin: 10px 0px !important;
 }
+.page-slug-speakers .wordcamp-post-list__post{
+  text-align: center;
+  font-size: 14px;
+}
