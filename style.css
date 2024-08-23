@@ -955,3 +955,7 @@ background: #fff!important;
   text-align: center;
   font-size: 14px;
 }
+.wcb_session-template-default main.wp-block-group {
+  border: none !important;
+  max-width: none !important;
+}
